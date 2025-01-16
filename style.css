@@ -10,13 +10,13 @@ body {
   
   h1 {
     font-size: 3em;
-    font-family: Monospace, Monaco;
+    font-family: Neue Haas Grotesk, sans-serif;
     color: #495e3d
   }
   
   #byline {
     font-size: 1em;
-    font-family: Helvetica;
+    font-family: Georgia, serif;
     margin-bottom: 20px;
     color: #495e3d
   }
@@ -40,7 +40,7 @@ body {
   
   
   P {
-    font-family: Helvetica;
+    font-family: Georgia, serif;
     font-size: 1em;
     line-height: 1.1em;
     color: black;
