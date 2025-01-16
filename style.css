@@ -23,11 +23,13 @@ body {
   
   img {
     margin: auto;
+    size: 40px;
     display: block;
     border: 2px solid #495e3d;
   
   }
-  
+
+
   .cutline {
     font-size: .8em;
     color: #495e3d;
