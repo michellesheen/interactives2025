@@ -3,9 +3,44 @@
     margin: auto;
 }
 
+body {
+  
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    width: 500 px;
+    margin: 10 auto;
+    background-color: #acde91
+  }
+
 #byline {
-    font-family:'Courier New', Courier, monospace;
+    font-family:Neue Haas Grotesk, sans-serif;
 }
+
+#subhed {
+    font-size: 1.5em;
+    font-family: Neue Haas Grotesk, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: Neue Haas Grotesk, sans-serif;
+    color: #213217
+  }
+
+h2 {
+    font-size: 2em;
+    font-family: Neue Haas Grotesk, sans-serif;
+    color: black
+}
+
+h3 {
+    font-size: 1.3 em;
+    font-family: Neue Haas Grotesk, sans-serif; 
+    color: black
+}
+
+
 
 /* mobile view*/
 @media (orientation: portrait) {
