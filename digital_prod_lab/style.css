@@ -44,7 +44,11 @@ h3 {
     color: black
 }
 
-
+p {
+    font-size: 1 em;
+    font-family: Neue Haas Grotesk, sans-serif;
+    color:black
+}
 
 /* mobile view*/
 @media (orientation: portrait) {
