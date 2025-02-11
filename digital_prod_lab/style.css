@@ -51,6 +51,18 @@ p {
     color:black
 }
 
+ul {
+    font-size: 1 em;
+    font-family: Neue Haas Grotesk, sans-serif;
+    color:black
+}
+
+img {
+    max-width: 60%;
+    height: auto; 
+    border-radius: 10px;
+  }
+
 /* mobile view*/
 @media (orientation: portrait) {
     #content {
