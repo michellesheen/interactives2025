@@ -57,11 +57,12 @@ ul {
     color:black
 }
 
-img {
-    max-width: 60%;
+#sabrina {
+    max-width: 30%;
     height: auto; 
     border-radius: 10px;
   }
+
 
 /* mobile view*/
 @media (orientation: portrait) {
