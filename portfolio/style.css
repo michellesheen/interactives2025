@@ -12,20 +12,14 @@ h2 {
     font-family: Neue Haas Grotesk, sans-serif;
 }
 
-#michelle {
-    font-size: 4em;
-    font-family: Neue Haas Grotesk, sans-serif;
-    padding-bottom: 15;
-    color:#1a375d;
-    background-color: bisque;
-    text-align: center;
-}
+/* _____________________________________________________________________________ */
+/* ALL PAGES */
+
 
 #nav_bar {
     display: flex;
     flex-direction: row;
     background-color: white;
-    
 
     }
 
@@ -45,11 +39,33 @@ h2 {
     text-decoration: none;
 }    
 
+/* _____________________________________________________________________________ */
+/* HOME */
+
+#michelle {
+    font-size: 4em;
+    font-family: Neue Haas Grotesk, sans-serif;
+    padding-bottom: 15;
+    color:#1a375d;
+    background-color: bisque;
+    text-align: center;
+}
+
+/* _____________________________________________________________________________ */
+
+/* PORTFOLIO */
+
 .box {
     padding: 0.1em;
     background-color: none;
     border: 1px solid black;
   }
+
+
+
+
+
+/* _____________________________________________________________________________ */
 
 @media (orientation: portrait) {
      #content {
