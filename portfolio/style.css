@@ -19,13 +19,14 @@ h2 {
 #nav_bar {
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: none;
+    padding-bottom: 1em;
 
     }
 
 #nav_bar a:hover {
     background-color: none;
-    color: red;
+    color: #e5aea4;
       }
 
 .nav_item {
