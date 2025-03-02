@@ -60,6 +60,7 @@ h2 {
     padding: 0.1em;
     background-color: none;
     border: 1px solid black;
+    width: 40%;
     
   }
 
@@ -74,12 +75,15 @@ h2 {
 .port_nav {
     padding: 0.1 em;
     background-color: aliceblue;
+    border: 1 px solid black;
 }
 
 #nav_bar2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    position:absolute;
+    top: 20 px; left: 50 px; 
 }
 
 /* _____________________________________________________________________________ */
