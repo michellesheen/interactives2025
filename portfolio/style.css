@@ -100,6 +100,7 @@ h2 {
 
 }
 
+
 #port_sections button {
     font-family: "Poppins", sans-serif;
     font-size: .8em;
@@ -114,6 +115,9 @@ h2 {
 
 }
 
+#port_sections button:hover {
+    background-color: antiquewhite;
+}
 
 /* _____________________________________________________________________________ */
 /* INFO */
