@@ -2,7 +2,10 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     
-    font-family: Neue Haas Grotesk, sans-serif;
+    font-family: "bennet-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
     width: 500 px;
     margin: 10 auto;
     background-color: #F5F5F5
@@ -10,8 +13,24 @@ body {
 }
 
 h2 {
-    font-family: Neue Haas Grotesk, sans-serif;
+    font-family: "bennet-display-extra-condens", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
+
+p {
+    font-family: "neue haas grotesk", sans-serif;
+    font-weight: 200;
+}
+
+/* this is for making specific images center 
+(like in my portfolio box sections) */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 /* _____________________________________________________________________________ */
 /* ALL PAGES */
@@ -21,7 +40,7 @@ h2 {
     display: flex;
     flex-direction: row;
     background-color: none;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 
     /* sticky will make the navigation bar stay on top even while scrolling */
     position: sticky;
@@ -38,6 +57,12 @@ h2 {
     display: inline-block;
     margin: auto;
     align-content: center;
+
+    font-family: "bennet-display-extra-condens", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.3em;
+
       }
       
 .nav_item a{
@@ -51,6 +76,7 @@ h2 {
 #michelle {
     font-size: 4em;
     font-family: Neue Haas Grotesk, sans-serif;
+
     padding-bottom: 15;
     color:#1a375d;
     background-color: none;
@@ -67,17 +93,23 @@ h2 {
 
 .box {
     
-    padding: 0.1em;
-    background-color: none;
-    border: 1px solid black;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.5em;
+
+    background-color:  #f0d8d0;
+    border: .5px solid #9d7162;
+    border-radius: 1.2em;
     width: 40%;
+
+    line-height: .3;
     
   }
 
 #boxes {
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: none;
     justify-content: space-evenly;
 
     }
@@ -96,7 +128,8 @@ h2 {
 #port_sections {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .3em .6em;
+
+    gap: .5em .4em;
 
 }
 
@@ -119,14 +152,37 @@ h2 {
     background-color: antiquewhite;
 }
 
+#welcome {
+    font-family: norman-variable, sans-serif;
+    font-variation-settings: "wght" 400;
+    color: #e5aea4;
+
+    font-size: 2em
+}
+
+#port_hed {
+    font-family: norman-variable, sans-serif;
+    font-variation-settings: "wght" 400;
+    color: #e5aea4;
+    font-size: 3em;
+}
+
 /* _____________________________________________________________________________ */
 /* INFO */
 
 #alterego {
+   
     text-justify: center;
+    text-align: center;
 
 }
 
+#alter {
+    font-family: norman-variable, sans-serif;
+    font-variation-settings: "wght" 400;
+    font-size: 2em;
+    color: #e5aea4;
+}
 
 /* _____________________________________________________________________________ */
 
