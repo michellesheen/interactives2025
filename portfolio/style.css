@@ -6,6 +6,7 @@ body {
     width: 500 px;
     margin: 10 auto;
     background-color: #F5F5F5
+
 }
 
 h2 {
@@ -21,6 +22,10 @@ h2 {
     flex-direction: row;
     background-color: none;
     padding-bottom: 1em;
+
+    /* sticky will make the navigation bar stay on top even while scrolling */
+    position: sticky;
+    top: 20px; 
 
     }
 
@@ -83,13 +88,37 @@ h2 {
     border: 1 px solid black;
 }
 
-#nav_bar2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position:absolute;
-    top: 20 px; left: 50 px; 
+#port_sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .7em .7em;
+    position: absolute; 
+    
+
 }
+
+#port_sections button {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+
+    background-color: aquamarine;
+    border-color: black; 
+    color: rgb(0, 0, 0);
+
+    padding: 0.8em;
+    border-radius: 1em;
+
+}
+
+
+/* _____________________________________________________________________________ */
+/* INFO */
+
+#alterego {
+    text-justify: center;
+
+}
+
 
 /* _____________________________________________________________________________ */
 
