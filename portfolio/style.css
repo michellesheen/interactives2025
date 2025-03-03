@@ -74,13 +74,18 @@ h2 {
     
   }
 
-  #boxes {
+#boxes {
     display: flex;
     flex-direction: row;
     background-color: white;
     justify-content: space-evenly;
 
     }
+
+#top {
+    display: flex;
+    flex-direction: row;
+}
 
 .port_nav {
     padding: 0.1 em;
@@ -91,22 +96,21 @@ h2 {
 #port_sections {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .7em .7em;
-    position: absolute; 
-    
+    gap: .3em .6em;
 
 }
 
 #port_sections button {
     font-family: "Poppins", sans-serif;
-    font-size: 1em;
+    font-size: .8em;
+    width: 100%; /* I wanted all buttons to be the same size */
 
     background-color: aquamarine;
     border-color: black; 
     color: rgb(0, 0, 0);
 
-    padding: 0.8em;
-    border-radius: 1em;
+    padding: 0.5em;
+    border-radius: .7em;
 
 }
 
