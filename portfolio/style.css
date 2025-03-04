@@ -23,6 +23,11 @@ p {
     font-weight: 200;
 }
 
+
+a:link {
+    color: Black;
+}
+
 /* this is for making specific images center 
 (like in my portfolio box sections) */
 .center {
@@ -95,7 +100,23 @@ p {
 
 /* _____________________________________________________________________________ */
 
-/* PORTFOLIO */
+/* PORTFOLIO SECTIONS */
+
+#port_hed {
+    font-family: norman-variable, sans-serif;
+    font-variation-settings: "wght" 400;
+    color: #e5aea4;
+    font-size: 3em;
+ 
+ 
+    text-align: center;
+ 
+ 
+    padding-top: 1em;
+    padding-bottom: .4em;
+    padding-left: .8em;
+ }
+ 
 
 .box {
     
@@ -126,15 +147,26 @@ p {
     flex-shrink:1
 }
 
+
+
+/* _____________________________________________________________________________ */
+/* PORTFOLIO */
+
 #top {
     display: flex;
     flex-direction: row;
 }
 
-.port_nav {
-    padding: 0.1 em;
-    background-color: aliceblue;
-    border: 1 px solid black;
+#top{
+    padding: 2em;
+}
+
+#welcome {
+    font-family: norman-variable, sans-serif;
+    font-variation-settings: "wght" 400;
+    color: #e5aea4;
+
+    font-size: 2em;
 }
 
 #port_sections {
@@ -143,11 +175,6 @@ p {
 
     gap: .5em .4em;
 
-}
-
-
-#top{
-    padding: 2em;
 }
 
 #port_sections button {
@@ -173,30 +200,6 @@ p {
 
 
 /* _____________________________________________________________________________ */
-/* PORT SECTIONS */
-
-#welcome {
-    font-family: norman-variable, sans-serif;
-    font-variation-settings: "wght" 400;
-    color: #e5aea4;
-
-    font-size: 2em;
-}
-
-#port_hed {
-    font-family: norman-variable, sans-serif;
-    font-variation-settings: "wght" 400;
-    color: #e5aea4;
-    font-size: 3em;
-
-    text-align: center;
-
-    padding-top: 1em;
-    padding-bottom: .4em;
-    padding-left: .8em;
-}
-
-/* _____________________________________________________________________________ */
 /* INFO */
 
 #alterego {
@@ -206,12 +209,40 @@ p {
 
 }
 
-#alter {
+.hed2 {
     font-family: norman-variable, sans-serif;
     font-variation-settings: "wght" 400;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #e5aea4;
 }
+
+#me_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: .5em;
+    
+}
+
+#about_me {
+    padding-bottom: 2em;
+}
+
+#profile {
+    padding-right: 1.5em;
+}
+
+/* adding a border to images 
+--> apply this class to whichever images i want to have the same border */
+.image_border {
+    border: 2px dotted #e49f9f
+}
+
+#line1 {
+    border: 2px solid #e49f9f;
+    border-radius: 2px;
+}
+
 
 /* _____________________________________________________________________________ */
 /* STORY -- EGG SHORTAGE */
