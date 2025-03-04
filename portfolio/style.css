@@ -23,6 +23,16 @@ p {
     font-weight: 200;
 }
 
+.hed3 {
+    font-family: "bennet-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color:#e49f9f;
+
+    text-align: center;
+
+}
 
 a:link {
     color: Black;
