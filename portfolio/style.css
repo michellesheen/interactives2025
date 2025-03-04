@@ -214,6 +214,30 @@ p {
 }
 
 /* _____________________________________________________________________________ */
+/* STORY -- EGG SHORTAGE */
+
+
+
+#byline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#817109;
+}
+
+.hed {
+    font-family: "neue haas grotesk", sans-serif;
+    font-weight: 200;
+    color:#5d530e;
+}
+
+.subhed {
+    font-family: "neue haas grotesk", sans-serif;
+    font-size: 1.3em;
+    color:#5d530e;
+}
+
+/* _____________________________________________________________________________ */
 
 @media (orientation: portrait) {
      #content {
