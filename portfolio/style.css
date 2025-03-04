@@ -155,10 +155,16 @@ a:link {
 #top {
     display: flex;
     flex-direction: row;
+    
 }
 
 #top{
     padding: 2em;
+    padding-top: 4em;
+}
+
+#name {
+    padding-top: 3em;
 }
 
 #welcome {
@@ -266,6 +272,14 @@ a:link {
     font-family: "neue haas grotesk", sans-serif;
     font-size: 1.3em;
     color:#5d530e;
+}
+
+#methodology {
+    padding-top: .5em;
+    font-family: "neue haas grotesk", sans-serif;
+    font-variation-settings: "wght" 400;
+    font-size: 1.3em;
+    color:#5d530e
 }
 
 /* _____________________________________________________________________________ */
