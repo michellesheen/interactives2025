@@ -32,6 +32,15 @@ p {
     width: 50%;
   }
 
+.credit {
+    font-family: "neue haas grotesk", sans-serif;
+    font-weight: 200;
+    font-size: .8em;
+    text-align: right;
+    color:#817109;
+    padding-bottom: 1.5em;
+}
+
 /* _____________________________________________________________________________ */
 /* ALL PAGES */
 
