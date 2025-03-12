@@ -1,3 +1,4 @@
+
 body { 
     padding-left: 10%;
     padding-right: 10%;
@@ -17,7 +18,23 @@ body {
 /* _____________________________________________________________________________ */
 /* FONTS */
 
+#masthead {
+    font-family: "amador", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+
+h2 {
+    font-family: "neue haas grotesk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: "neue haas grotesk", sans-serif;
+    font-weight: 200;
+}
 
 
 /* _____________________________________________________________________________ */
