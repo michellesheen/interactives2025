@@ -115,6 +115,13 @@ p {
     padding-bottom: .5em;
     }
 
+#salary {
+    float:right;
+    width: 200em;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    }
+
 .center {
     display: block;
     margin-left: auto;
@@ -130,6 +137,14 @@ p {
 #pullquote {
     padding-bottom: 2em;
     padding-top: 1.5em;
+}
+
+#school {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
 }
 
 /* _____________________________________________________________________________ */
