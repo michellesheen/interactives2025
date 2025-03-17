@@ -3,6 +3,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
+    padding-bottom: 10%;
     
     font-family: "bennet-display", sans-serif;
     font-weight: 400;
@@ -26,15 +27,34 @@ h1 /* MASTHEAD */ {
     font-size: 3em;
 }
 
-h2 {
-    font-family: "neue haas grotesk", sans-serif;
-    font-weight: 300;
+h2 /* HED */ {
+    font-family: "nicholas", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+
+
+}
+
+h3 /* DEK */ {
+    font-family: "nicholas", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+
+}
+
+h4 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
 p {
-    font-family: "neue haas grotesk", sans-serif;
+    font-family: "source-serif-pro", serif;
     font-weight: 200;
+    font-style: normal;
+    
 }
 
 
@@ -60,11 +80,6 @@ p {
     margin: auto;
     align-content: center;
 
-    font-family: "bennet-display-extra-condens", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 1.3em;
-
     }
           
 .nav_item a{
@@ -80,3 +95,49 @@ p {
 /* _____________________________________________________________________________ */
 /* STORY: INDEX.HTML */
 
+.chunk1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#affordable {
+    float:right;
+    width: 250em;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    }
+
+
+#expensive {
+    float:left;
+    width: 250em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#credit {
+    font-size: 2em;
+}
+
+#pullquote {
+    padding-bottom: 2em;
+    padding-top: 1.5em;
+}
+
+/* _____________________________________________________________________________ */
+
+@media (orientation: portrait) {
+    #content {
+         width: 100%
+     }
+   }
+   
+   
