@@ -25,6 +25,7 @@ h1 /* MASTHEAD */ {
     font-weight: 100;
     font-style: normal;
     font-size: 3em;
+    color:black;
 }
 
 h2 /* HED */ {
@@ -72,7 +73,7 @@ p {
     
 #nav_bar a:hover {
     background-color: none;
-    color: #e5aea4;
+    color: #763382;
     }
     
 .nav_item {
@@ -102,7 +103,7 @@ p {
 
 #affordable {
     float:right;
-    width: 25em;
+    width: 250em;
     padding-left: 1em;
     padding-bottom: .5em;
     }
@@ -110,7 +111,7 @@ p {
 
 #expensive {
     float:left;
-    width: 25em;
+    width: 250em;
     padding-right: 1em;
     padding-bottom: .5em;
     }
