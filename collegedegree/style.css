@@ -117,7 +117,7 @@ p {
 
 #salary {
     float:right;
-    width: 200em;
+    width: 30em;
     padding-left: 1em;
     padding-bottom: .5em;
     }
@@ -151,15 +151,17 @@ p {
 /* ABOUT: ABOUT.HTML */
 
 .profile {
-    display: flex;
-    flex-direction:column;
+    float: left;
+    width: 33.33%;
 
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
-.profile_row {
-    display: flex;
-    flex-direction: row;
+.profile_row:after {
+
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* _____________________________________________________________________________ */
