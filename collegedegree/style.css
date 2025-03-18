@@ -152,9 +152,14 @@ p {
 
 .profile {
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
 
     padding-top: 2em;
+}
+
+.profile_row {
+    display: flex;
+    flex-direction: row;
 }
 
 /* _____________________________________________________________________________ */
